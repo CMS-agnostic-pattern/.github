@@ -2,7 +2,17 @@
 
 ## The Idea and Motivation
 
-TBD
+We are captive of our previous experience. All of us are familiar with popular CMS like WordPress, Drupal, or Joomla and some of us are pretty experienced with such systems. And this experience won't allow us to look at all that stuff with the other side. In the classic monolithic CMS, we can manage everything in one place. We can change themes, manage layouts, handle user permissions, set up integration with 3rd party services, and sometimes even write CSS and JS. But I want you to recall what the abbreviation CMS means. It's a Content Management System, thus it must be the tool to manage the content and that's it.
+
+In a more advanced modern approach such as API-driven CMS (Sanity, Webiny, Contentful, etc.) we take care of content data model and content. The 3rd party web application delivers content to the end user. Yes, in that approach we are flexible to choose the front-end technology, but the content data model is built inside CMS as well as content format and structure depending on the platform and if we decide to change CMS we have to deal with the migration project. So we have a content repository strongly connected with the CMS tool.
+
+In the decoupled paradigm we split front-end application from monolithic CMS. The next step could be to split the content data model from CMS. The main reason to make such separation is the following: in old-school CMSs usually users with the role admin manage content types or page types, but the users with the editor role populate content. I don't know the reason why the management of data structure, fields, and taxonomy structure should be handled in the same place where we add pages, posts, etc. 
+
+So, let's organize the content data model separately from CMS. A few examples of how it can look like you can be found in the repository https://github.com/CMS-agnostic-pattern/model-examples
+
+But do we have a reason to have a content repository inside the CMS? If we have some universal content structure format we can use different CMS-like tools that can consume it. And it's the main idea of the CMS-agnostic pattern.
+
+The main motivation for that activity and community is to develop some universal extendable formats for content data models and content data (objects) that can be used with different tools to make more people happy.
 
 ## Background
 
