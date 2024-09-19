@@ -6,7 +6,7 @@ We are captive of our previous experience. All of us are familiar with popular C
 
 In a more advanced modern approach such as API-driven CMS (Sanity, Webiny, Contentful, etc.) we take care of content data model and content. The 3rd party web application delivers content to the end user. Yes, in that approach we are flexible to choose the front-end technology, but the content data model is built inside CMS as well as content format and structure depending on the platform and if we decide to change CMS we have to deal with the migration project. So we have a content repository strongly connected with the CMS tool.
 
-In the decoupled paradigm we split front-end application from monolithic CMS. The next step could be to split the content data model from CMS. The main reason to make such separation is the following: in old-school CMSs usually users with the role admin manage content types or page types, but the users with the editor role populate content. I don't know the reason why the management of data structure, fields, and taxonomy structure should be handled in the same place where we add pages, posts, etc. 
+In the decoupled paradigm we split front-end application from monolithic CMS. The next step could be to split the content data model from CMS. The main reason to make such separation is the following: in old-school CMSs usually users with the role admin manage content types or page types, but the users with the editor role populate content. I don't know the reason why the management of data structure, fields, and taxonomy structure should be handled in the same place where we add pages, posts, etc.
 
 So, let's organize the content data model separately from CMS. A few examples of how it can look like you can be found in the repository https://github.com/CMS-agnostic-pattern/model-examples
 
@@ -106,6 +106,10 @@ These examples represent different approaches to universal content data models t
 ### Does any one of them can be used as the Universal content model at least for some simple web-site and/or application?
 
 There is a lack of data that we need to handle data objects. For example, unique identifiers and keys. Also, we need better control on how different items of content connected with each other.
+
+
+![Alt text](images/CMS-agnostic_Pattern.png.jpg?raw=true "CMS-agnostic Pattern scheme")
+
 
 ## References
 
