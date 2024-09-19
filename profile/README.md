@@ -108,7 +108,7 @@ These examples represent different approaches to universal content data models t
 There is a lack of data that we need to handle data objects. For example, unique identifiers and keys. Also, we need better control on how different items of content connected with each other.
 
 
-![Alt text](images/CMS-agnostic_Pattern.png.jpg?raw=true "CMS-agnostic Pattern scheme")
+![Alt text](images/CMS-agnostic_Pattern.png?raw=true "CMS-agnostic Pattern scheme")
 
 
 ## References
