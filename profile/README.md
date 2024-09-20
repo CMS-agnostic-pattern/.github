@@ -1,5 +1,9 @@
 # CMS-agnostic Pattern and Universal Content Data Model Initiative Community
 
+## CMS-agnostic Pattern and Universal Content Data Model Initiative Community Join Form
+
+https://forms.gle/jKhxNShAi9XJ4xNK6
+
 ## The Idea and Motivation
 
 We are captive of our previous experience. All of us are familiar with popular CMS like WordPress, Drupal, or Joomla and some of us are pretty experienced with such systems. And this experience won't allow us to look at all that stuff with the other side. In the classic monolithic CMS, we can manage everything in one place. We can change themes, manage layouts, handle user permissions, set up integration with 3rd party services, and sometimes even write CSS and JS. But I want you to recall what the abbreviation CMS means. It's a Content Management System, thus it must be the tool to manage the content and that's it.
@@ -115,13 +119,6 @@ There is a lack of data that we need to handle data objects. For example, unique
 
 TBD
 
-<!--
+## CMS-agnostic Pattern and Universal Content Data Model Initiative Community Join Form
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+https://forms.gle/jKhxNShAi9XJ4xNK6
