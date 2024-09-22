@@ -117,6 +117,10 @@ There is a lack of data that we need to handle data objects. For example, unique
 
 ## References
 
+https://www.acquia.com/blog/types-of-cms
+https://www.acquia.com/blog/decoupled-vs-headless-cms
+https://tome.fyi/
+
 TBD
 
 ## CMS-agnostic Pattern and Universal Content Data Model Initiative Community Join Form
