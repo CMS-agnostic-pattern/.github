@@ -109,19 +109,45 @@ These examples represent different approaches to universal content data models t
 
 ### Does any one of them can be used as the Universal content model at least for some simple web-site and/or application?
 
-There is a lack of data that we need to handle data objects. For example, unique identifiers and keys. Also, we need better control on how different items of content connected with each other.
+There is a lack of data that we need to handle data objects, such as unique identifiers and keys. Also, we need better control over how different items of content are connected.
 
+## CMS-agnostic Pattern
+
+There are two common user roles: administrator and editor. The main difference between those two roles is the parts of CMS they use for their regular activity in charge of the content. Administrators can set up different data types, and manage fields, so they are in charge for the Data Content Model. Editors are in charge of the content.
+
+Let’s imagine the user story, I want to set up a usual blog with some basic common blog functionality. Imagine that there is a public Blog Data Model that covers my needs. It means that I don’t need to reinvent a bicycle. I just need to make my CMS consume those 3rd party settings and create content in my content repository on the base of them.
+
+If we have some сonventional and widely adopted data model format we can use any tool that is convenient for us and cover our needs that can support this format.
+
+Let me share with you my initial vision of the CMS-agnostic pattern.
 
 ![Alt text](images/CMS-agnostic_Pattern.png?raw=true "CMS-agnostic Pattern scheme")
 
+We can use different 3rd party Content models and combine them, also we can extend the existing content models, for example, by additional fields.
+
+We can have a few content repositories based on purposes and permissions. For example, public content repositories for public sites and private ones where we have some technical documentation and other sensitive information.
+
+As a cherry on top, we can have a few CMS adopted for different usual tasks for different user groups. Probably we even can reuse some existing solutions. And that idea is called the CMS-agnostic approach.
+
+But what is the best format to describe the content model? Should we use JSON or YAML?
+
+I don’t have the answer to that question now. 
+
+## Opened questions
+
+1. What's the best format (JSON or YAML)?
+2. How should we handle Solo objects and Listings?
+3. The best permission model?
+4. Asset management?
+5. Multilanguage support?
 
 ## References
 
 https://www.acquia.com/blog/types-of-cms
-https://www.acquia.com/blog/decoupled-vs-headless-cms
-https://tome.fyi/
 
-TBD
+https://www.acquia.com/blog/decoupled-vs-headless-cms
+
+https://tome.fyi/
 
 ## CMS-agnostic Pattern and Universal Content Data Model Initiative Community Join Form
 
